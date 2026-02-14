@@ -1,0 +1,72 @@
+{
+  "name": "2026 Day Tracker - Mountain Edition",
+  "short_name": "2026 Tracker",
+  "description": "Track your daily progress throughout 2026 with an interactive wallpaper featuring real-time clock and day counter. Mountain-themed edition.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#0a0e27",
+  "background_color": "#0a0e27",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/windows-icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Progress",
+      "short_name": "Progress",
+      "description": "Check your daily progress",
+      "url": "index.html?mode=progress",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Day Tracker",
+      "short_name": "Tracker",
+      "description": "Track days completed in 2026",
+      "url": "index.html?mode=tracker",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

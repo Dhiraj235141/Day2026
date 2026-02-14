@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0e27">
+    <meta name="description" content="Track your daily progress throughout 2026 with an interactive wallpaper featuring real-time clock and day counter.">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="2026 Tracker">
+    <link rel="apple-touch-icon" href="assets/apple-icon.png">
+    
+    <!-- Windows Meta Tags -->
+    <meta name="msapplication-TileColor" content="#0a0e27">
+    <meta name="msapplication-TileImage" content="assets/windows-icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="shortcut icon" href="assets/favicon.png">
+    
+    <title>2026 Day Tracker - Mountain Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+        <button id="themeButton" class="theme-btn">
+            <span class="theme-icon">☀️</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="title">2026</div>
+        <div class="subtitle">Days Remaining</div>
+
+        <!-- Clock Section -->
+        <div class="clock-section">
+            <div class="analog-clock">
+                <div class="clock-face">
+                    <div class="clock-center"></div>
+                    <div class="hand hour-hand" id="hourHand"></div>
+                    <div class="hand minute-hand" id="minuteHand"></div>
+                    <div class="hand second-hand" id="secondHand"></div>
+                </div>
+            </div>
+            <div class="time-remaining" id="timeRemaining">
+                <div class="time-label">Hours Remaining Today</div>
+                <div class="time-value" id="hoursValue">--:--</div>
+            </div>
+        </div>
+
+        <!-- Dots Grid Section -->
+        <div class="dots-grid" id="dotsGrid"></div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <!-- Stats -->
+        <div class="info">
+            <div id="stats"></div>
+            <div style="margin-top: 8px;">Days completed / Total days in 2026</div>
+        </div>
+
+        <!-- Install App Button (Mobile) -->
+        <div id="installPrompt" class="install-prompt" style="display: none;">
+            <div class="install-content">
+                <div class="install-icon">📱</div>
+                <div class="install-text">
+                    <div class="install-title">Add to Home Screen</div>
+                    <div class="install-description">Get quick access with custom icon</div>
+                </div>
+                <button id="installBtn" class="install-button">Install</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-title">2026 Day Tracker</div>
+                <div class="footer-divider"></div>
+                
+                <div class="footer-description">
+                    Track your daily progress throughout 2026 with an interactive wallpaper featuring real-time clock and day counter.
+                </div>
+
+                <div class="footer-links">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-icon" title="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" title="Instagram">📷</a>
+                    <a href="#" class="social-icon" title="GitHub">⭐</a>
+                    <a href="#" class="social-icon" title="Email">✉️</a>
+                </div>
+
+                <div class="footer-credit">
+                    <span>Made with</span> 💜 <span>in 2026</span>
+                    <br>
+                    <span>© 2026</span> <a href="#">Your Name</a> <span>| All rights reserved</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
