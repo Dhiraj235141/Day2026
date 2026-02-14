@@ -1,4 +1,4 @@
-# 🏔️ 2026 Day Tracker - Mountain Edition
+# 2026 Day Tracker - 
 
 A beautiful, fully functional Progressive Web App (PWA) to track your daily progress throughout 2026 with an interactive clock and custom mountain icon.
 
@@ -21,16 +21,16 @@ A beautiful, fully functional Progressive Web App (PWA) to track your daily prog
 
 ## ✨ Features
 
-✅ **Real-time Clock** - Animated analog clock showing current time
-✅ **Day Tracker** - 365/366 dots showing days completed in 2026
-✅ **Progress Bar** - Visual progress of the year
-✅ **Time Counter** - Hours remaining in the day
-✅ **Dark/Light Theme** - Toggle between themes with custom styling
-✅ **Mobile App** - Install as native app with custom mountain icon
-✅ **Offline Support** - Works without internet connection
-✅ **Responsive Design** - Perfect on all devices
-✅ **PWA Ready** - Install on home screen with one click
-✅ **Footer** - Social links and credits section
+ **Real-time Clock** - Animated analog clock showing current time
+ **Day Tracker** - 365/366 dots showing days completed in 2026
+ **Progress Bar** - Visual progress of the year
+ **Time Counter** - Hours remaining in the day
+ **Dark/Light Theme** - Toggle between themes with custom styling
+ **Mobile App** - Install as native app with custom mountain icon
+ **Offline Support** - Works without internet connection
+ **Responsive Design** - Perfect on all devices
+ **PWA Ready** - Install on home screen with one click
+ **Footer** - Social links and credits section
 
 ## 🚀 Quick Start - Ready to Deploy!
 
@@ -178,24 +178,5 @@ Copy entire `2026-tracker-app` folder to:
 - Netlify deployment
 - Any static hosting (Surge, Firebase, etc.)
 
-## 📝 License
-
-Free to use and modify for personal or commercial use.
-
-## 🙏 Support
-
-If any issues:
-1. Check browser console (F12)
-2. Verify all files are uploaded
-3. Ensure HTTPS (GitHub Pages auto-enables)
-4. Try different browser
-5. Clear cache and reload
-
----
-
-**Ready to Launch!** 🚀
-
-All you need to do is deploy this folder to any static hosting.
-Your mountain icon will appear on mobile home screens automatically.
 
 Enjoy tracking your 2026 progress! 📅✨
